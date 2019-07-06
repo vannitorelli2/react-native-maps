@@ -334,6 +334,8 @@ declare module "react-native-maps" {
      * __Android only__
      */
     animateMarkerToCoordinate(coordinate: LatLng, duration?: number): void;
+
+    redraw(): void;
   }
 
   export class MarkerAnimated extends Marker {}
